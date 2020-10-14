@@ -1,7 +1,7 @@
 # Virtual Reality Project 1
 # Jalen Flores
 
-# Demo Link
+Demo Link:
 
 https://jalenf.github.io/Virtual-Reality/
 
