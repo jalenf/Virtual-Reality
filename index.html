@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Project1</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+</head>
+<!--Below lies assets for the VR environment-->
+<body>
+    <a-scene>
+        <a-entity camera="" position="-0.04927145689635426 1.34064 2.667312293132067" wasd-controls="acceleration: 75" rotation="" look-controls="" aframe-injected="" data-aframe-inspector-original-camera="" id="camera"></a-entity>
+
+        <!-- my environment and lighting-->
+        <a-entity environment="preset: default; playArea: 1.5; ground: hills; groundYScale: 10; groundTexture: walkernoise; groundColor: #055C25; groundColor2: #09702F; dressing: trees; dressingScale: 6"></a-entity>
+        <a-light type="ambient" color="#FFFFFF" intensity:="" 1="" light="color: #8f8f8f"></a-light>
+
+        <!-- my building -->
+        <a-entity geometry="depth: 10; height: 6; width: 0.3; segmentsDepth: 2" position="-5.65 0 -6.9" id="wall1" material="src:assets/white-brick-wall-texture.jpg"></a-entity>
+        <a-entity geometry="depth: 10; height: 6; width: 0.3; segmentsDepth: 2" position="5.65 0 -6.9" id="wall2" material="src: assets/white-brick-wall-texture.jpg"></a-entity>
+        <a-entity geometry="depth: 11.6; height: 6; width: 0.3; segmentsDepth: 2" position="0.01161 0 -11.88568" id="wall3" material="src: assets/white-brick-wall-texture.jpg" rotation="0 -90 0"></a-entity>
+        <a-entity geometry="depth: 11.6; height: 6; width: 0.3; segmentsDepth: 2" position="0.01161 0 -2.04104" id="wall4" material="src: assets/white-brick-wall-texture.jpg" rotation="0 -90 0"></a-entity>
+        <a-entity geometry="primitive: plane; height: 9.8; width: 11" position="-0.00616 0.001 -6.89573" rotation="-90 0 0" id="floor" material="src: assets/black-floor.jpg"></a-entity>
+        <a-entity geometry="depth: 0.001; height: 3; width: 3" rotation="-0.01 90 0" id="wallbath1" position="1.809 1.42019 -10.29795" material=""></a-entity>
+        <a-entity geometry="depth: 0.001; height: 3; width: 3" rotation="-0.01 0 0" id="wallbath2" position="3.663 1.42001 -8.82768" material="" scale="1.232 1 1"></a-entity>
+
+        <!-- my assets-->
+        <a-entity gltf-model="objects/simple_bed_lowpoly/scene.gltf" scale="0.21238 0.21238 0.21238" position="-4.2849 0 -9.86191" id="bed"></a-entity>
+        <a-entity gltf-model="objects/ikea_8-drawer_dresser_white_stain/scene.gltf" id="dresser" scale="0.023 0.023 0.023" position-="1.309 0 -2.5" rotation="0 90 0" position="2.5005 0 -2.09432" id="dresser"></a-entity>
+        <a-entity gltf-model="objects/ikea_linnmonalex_desk/scene.gltf" id="desk" rotation="0 -180 0" scale="0.027 0.027 0.027" position="-2.28796 -0.04382 -2.80569" ></a-entity>
+        <a-entity gltf-model="objects/nightstand_a/scene.gltf" id="nightstand" scale="1.234 1.234 1.234" position="-2.737 0 -10.937"></a-entity>
+        <a-entity gltf-model="objects/office_chair/scene.gltf" id="deskchair" rotation="0 0 0" scale="0.6 0.6 0.6" position="-4.311 0.551 -2.782"></a-entity>
+        <a-entity gltf-model="objects/model_laptop/scene.gltf" id="laptop1" scale="0.053 0.053 0.053" rotation="0 180 0" position="-4.314 0.716 -2.428"></a-entity>
+        <a-entity gltf-model="objects/book_shelf/scene.gltf" id="shelf" rotation="0 -90 0" position="4.484 0 -5.68901" scale="0.008 0.008 0.00847"></a-entity>
+        <a-entity gltf-model="objects/random_books/scene.gltf" id="bookrow" scale="0.104 0.10355 0.10354" rotation="-180 0 -179.9998479605043" position="5.322 0.9561 -4.73046"></a-entity>
+        <a-entity gltf-model="objects/book/scene.gltf" id="book" position="5.241 0.81917 -4.24605" scale="0.182 0.18156 0.18156" ></a-entity>
+        <a-entity gltf-model="objects/roof4/scene.gltf" rotation="0 90 0" id="roof" scale="2.981 1.48672 3.38058" position="0.02 5.159 -6.82027"></a-entity>
+        <a-entity gltf-model="objects/tv/scene.gltf" id="tv" rotation="0 180 0"  position="2.46 0.8673 -2.36213"></a-entity>
+        <a-entity gltf-model="objects/skateboard/scene.gltf" id="skateboard" position="-5.36353 0.11771 -5.08749" rotation="74.91709650233079 -64.29617785399071 112.990141988774" scale="0.48 0.36098 0.36098"></a-entity>
+        <a-entity gltf-model="objects/guitar/scene.gltf" id="guitar" position="-0.6464 0.76797 -11.15664" rotation="68.13900578593315 0.32486706983917674 86.64726144204414" scale="0.385 0.38475 0.38475"></a-entity>
+        <a-entity gltf-model="objects/ps4_console/scene.gltf" id="ps4" rotation="-6.843 177.6644719875511 -90.73588826809768" position="3.741 0.78293 -2.07948" scale="0.004 0.0036 0.0036"></a-entity>
+        <a-entity gltf-model="objects/ps4_controller/scene.gltf" id="ps4controller" rotation="-180 0 -179.9998479605043" scale="0.01 0.01 0.01" position="3.632 1.19792 -2.42239"></a-entity>
+        <a-entity gltf-model="objects/low-poly_toilet/scene.gltf" rotation="-0.01 90 0" id="toilet" position="2.701 0 -11.22279"></a-entity>
+        <a-entity gltf-model="objects/shower/scene.gltf" rotation="180 90 179.9998479605043" scale="0.228 0.275 0.22757" id="shower" position="4.865 0 -10.85885"></a-entity>
+        <a-entity gltf-model="objects/bathroom_sink_free__agustin_honnun/scene.gltf" scale="-0.002 0.003 0.002" rotation="0 90 0" id="sink" position="2.067 0 -10.17069"></a-entity>
+        <a-entity gltf-model="objects/kitchen_cabinet_free/scene.gltf" id="cabinet" position="2.111 2.39556 -11.22924" scale="0.502 0.50183 0.50183"></a-entity>
+        <a-entity gltf-model="objects/low_poly_plant_-_by_lemstrx/scene.gltf" id="plant" position="4.631 0.22719 -2.76266" scale="0.017 0.01679 0.01679"></a-entity>
+
+        <!-- my created assets-->
+        <!--the doors-->>
+        <a-entity geometry="depth: 0.001; width: 0.8" id="door1" material="src: assets/wood-texture.jpg" position="-1.338 0 -1.89025" scale="1.324 3.83185 1"></a-entity>
+        <a-entity geometry="primitive: sphere" material="color: #542c2c" id="doorknob1" position="-1.652 0.97036 -1.82524" scale="0.057 0.05742 0.05742"></a-entity>
+        <a-entity geometry="depth: 0.001; width: 0.8" id="door2" material="src: assets/wood-texture.jpg" position="3.70069 0 -8.82307" scale="1.324 3.83185 1"></a-entity>
+        <a-entity geometry="primitive: sphere" material="color: #542c2c" id="doorknob2" position="3.37632 0.97036 -8.77219" scale="0.057 0.05742 0.05742"></a-entity>
+        <!--flower pot-->
+        <a-entity geometry="primitive: cylinder" scale="0.25 0.42272 0.25" material="color: #ff4242" id="potbase" position="4.615 0.06269 -2.76446"></a-entity>
+        <a-entity geometry="primitive: cylinder" scale="0.175 0.42272 0.175" material="color: #290f0f" id="potsoil" position="4.615 0.07657 -2.76446"></a-entity>
+        <a-entity geometry="primitive: cylinder" scale="0.3 0.0641 0.3" material="color: #ff4242" id="pottop" position="4.615 0.25287 -2.76446"></a-entity>
+        <!--welcome mat-->
+        <a-entity geometry="height: 0.012" position="-1.338 0 -1.3926" material="src: assets/brown-doormat-texture.jpg" id="doormat" scale="1 1 0.751" ></a-entity>
+        <a-entity text__welcome="color: #000000; value: Welcome" rotation="-90 0 0" id="welcometext" scale="2.133 2.1328 2.1328" position="-0.467 0.04882 -1.34198"></a-entity>
+        <!--carpet-->
+        <a-entity geometry="primitive: cylinder; height: 0.01" material="src: assets/carpet-texture-red.jpg" position="2.501 -0.00002 -4.537" scale="1.254 1 1.00744" id="carpet" rotation="-179.9998479605043 0 -179.9998479605043"></a-entity>
+        <!--couch-->
+        <a-entity geometry="" material="color: #969696" id="arm1" position="1.244 0 -5.75014" scale="0.331 1.76496 1"></a-entity>
+        <a-entity geometry="" material="color: #969696" id="arm2" position="3.7461 0 -5.75014" scale="0.331 1.76496 1"></a-entity>
+        <a-entity geometry="" material="color: #969696" id="back" position="2.549 0 -5.98799" scale="2.276 1.76496 0.52683"></a-entity>
+        <a-entity geometry="" material="color: #969696" id="seat" position="2.549 -0.46877 -5.51138" scale="2.276 1.76496 0.52683"></a-entity>
+        
+
+    </a-scene>
+</body>
+</html>
