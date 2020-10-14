@@ -1,0 +1,454 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 430,
+      "max": [
+        1.7683911323547363,
+        0.10000050067901611,
+        3.5011811256408691
+      ],
+      "min": [
+        -1.7714877128601074,
+        -0.099999994039535522,
+        -4.4703483581542969e-08
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5160,
+      "componentType": 5126,
+      "count": 430,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 430,
+      "max": [
+        1,
+        1,
+        0.70729857683181763,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.70729434490203857,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 430,
+      "max": [
+        0.28658261895179749,
+        0.91812074184417725
+      ],
+      "min": [
+        0.26016965508460999,
+        0.89170771837234497
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 492,
+      "max": [
+        429
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10320,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        2.428743839263916,
+        1.2929757833480835,
+        3.9938437938690186
+      ],
+      "min": [
+        -1.8013453483581543,
+        -1.8260143995285034,
+        -0.40286967158317566
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 26784,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        0.9999617338180542,
+        0.99998766183853149,
+        1
+      ],
+      "min": [
+        -0.99999558925628662,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 6880,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        1,
+        0.99999558925628662,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.9999617338180542,
+        -0.8225361704826355,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3440,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        0.84703803062438965,
+        0.9746667742729187
+      ],
+      "min": [
+        0.0023776888847351074,
+        0.25029563903808594
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1968,
+      "componentType": 5125,
+      "count": 2004,
+      "max": [
+        1371
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "sam_ogon (https://sketchfab.com/sam_ogon)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/0e4ab33b73834c9998d4b04251ad0974",
+      "title": "Roof4"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9984,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14416,
+      "byteOffset": 9984,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43248,
+      "byteOffset": 24400,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28832,
+      "byteOffset": 67648,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 96480,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/med_diffuse_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "med_diffuse",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.89297135959999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ChamferBox008_med_diffuse_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "dach_med_diffuse_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "be44a54f52ca4e5cb955a8bab1105a93.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "roof4"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1.6292068472090193e-07,
+        0.99999999999998679,
+        0,
+        0,
+        -0.99999999999998679,
+        -1.6292068472090193e-07,
+        0,
+        -0.000152587890625,
+        1.7504158020019531,
+        -1.3090581893920898,
+        1
+      ],
+      "name": "ChamferBox008"
+    },
+    {
+      "mesh": 0,
+      "name": "ChamferBox008_med_diffuse_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        -1.6292068494294654e-07,
+        -0.9999999999999869,
+        0,
+        0,
+        -4.0133926404450904e-07,
+        6.5170091545496689e-14,
+        0.99999999999991962,
+        0,
+        -0.99999999999990641,
+        1.6292068488743539e-07,
+        -4.0133926426655364e-07,
+        0,
+        1.7454872131347656,
+        -0.00421142578125,
+        0.36916828155517578,
+        1
+      ],
+      "name": "dach"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.31790971755981445,
+        -0.10264850407838821,
+        -0.049999922513961792,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": "dach_med_diffuse_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
