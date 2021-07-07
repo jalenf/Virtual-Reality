@@ -1,4 +1,4 @@
-# Virtual Reality Project 1
+# Virtual Reality Site Project 
 # Jalen Flores
 
 Demo Link:
